@@ -1,0 +1,1 @@
+[15-Dec-2022 09:32:59 Asia/Kolkata] PHP Fatal error:  Cannot redeclare site_config() (previously declared in /home1/aiimsb5e/uat.aiimsrbl.edu.in/config/helper.php:7) in /home1/aiimsb5e/uat.aiimsrbl.edu.in/config/helper.php on line 7

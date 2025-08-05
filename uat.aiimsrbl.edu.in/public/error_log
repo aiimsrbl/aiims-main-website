@@ -1,0 +1,978 @@
+[01-Dec-2022 08:52:02 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.25. in /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/composer/platform_check.php on line 24
+[01-Dec-2022 08:52:11 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.25. in /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/composer/platform_check.php on line 24
+[15-Dec-2022 12:00:48 America/Chicago] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(RuntimeException))
+#6 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(RuntimeException))
+#7 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(RuntimeException))
+#8 /home1/aiimsb5e/uat.aiimsrbl.edu.in/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[15-Dec-2022 12:00:53 America/Chicago] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(RuntimeException))
+#6 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(RuntimeException))
+#7 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(RuntimeException))
+#8 /home1/aiimsb5e/uat.aiimsrbl.edu.in/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[15-Dec-2022 12:00:56 America/Chicago] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(RuntimeException))
+#6 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(RuntimeException))
+#7 /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(RuntimeException))
+#8 /home1/aiimsb5e/uat.aiimsrbl.edu.in/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home1/aiimsb5e/uat.aiimsrbl.edu.in/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[25-Jan-2023 19:26:46 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:51 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:57 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:57 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:57 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:57 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:57 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:58 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:58 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:58 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:26:58 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:27:00 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:27:03 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:28:30 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:29:10 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:29:30 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:29:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:30:31 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:30:47 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:13 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:38 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:39 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:45 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:51 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:55 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:56 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:31:59 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:32:00 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:32:11 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:32:12 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:34:16 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:34:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:35:00 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:36:39 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:36:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:36:45 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:36:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:36:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:36:51 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:36:54 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:36:56 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:00 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:12 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:12 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:12 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:12 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:12 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:12 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:12 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:17 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:20 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:36 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:37:39 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:38:21 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:39:13 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:39:52 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:39:53 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:41:17 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:41:39 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:41:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:41:45 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:41:48 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:41:50 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:41:54 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:41:56 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:41:59 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:43:03 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:44:13 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:45:02 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:46:21 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:46:39 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:46:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:46:45 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:46:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:46:52 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:46:54 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:46:58 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:47:00 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:48:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:49:08 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:49:12 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:49:15 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:49:23 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:49:29 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:49:30 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:49:36 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:49:41 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:49:46 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:50:23 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:51:39 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:51:42 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:51:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:51:45 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:51:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:51:50 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:51:52 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:51:55 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:51:56 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:52:01 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:52:01 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:52:38 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:52:38 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:52:38 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:52:38 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:53:40 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:54:13 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:54:15 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:54:19 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:55:56 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:56:26 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:56:39 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:56:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:56:45 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:56:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:56:51 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:56:55 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:56:57 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:57:00 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:57:53 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 19:59:15 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:01:40 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:01:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:01:46 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:01:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:01:52 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:01:54 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:01:58 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:02:00 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:02:29 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:02:52 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:27 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:35 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:39 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:40 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:44 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:52 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:55 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:03:57 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:04:10 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:04:25 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:04:30 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:04:31 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:04:34 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:04:41 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:04:41 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:05:19 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:05:22 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:05:24 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:05:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:05:45 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:30:24 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:30:26 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:30:48 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:30:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:30:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:30:51 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:30:51 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:30:58 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:31:00 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:31:29 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:31:31 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:31:33 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:31:34 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:31:40 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:31:43 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:31:45 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:31:49 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[25-Jan-2023 20:32:53 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/aiimsb5e/public_html/vendor/composer/platform_check.php on line 24
+[03-Dec-2024 01:43:11 America/Chicago] PHP Fatal error:  Cannot redeclare App\Http\Kernel::$routeMiddleware in /home1/aiimsb5e/public_html/app/Http/Kernel.php on line 70
+[03-Dec-2024 01:43:27 America/Chicago] PHP Fatal error:  Cannot redeclare App\Http\Kernel::$routeMiddleware in /home1/aiimsb5e/public_html/app/Http/Kernel.php on line 70
+[03-Dec-2024 01:43:27 America/Chicago] PHP Fatal error:  Cannot redeclare App\Http\Kernel::$routeMiddleware in /home1/aiimsb5e/public_html/app/Http/Kernel.php on line 70
+[03-Dec-2024 01:43:41 America/Chicago] PHP Fatal error:  Cannot redeclare App\Http\Kernel::$routeMiddleware in /home1/aiimsb5e/public_html/app/Http/Kernel.php on line 70
+[17-Dec-2024 00:06:30 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:06:30 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:06:33 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:06:33 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:06:36 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:06:36 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:06:48 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:06:48 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:06:50 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:06:50 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:06:50 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:06:50 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:06:51 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:06:51 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:06:53 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:06:53 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:06:53 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:06:53 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:00 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:00 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:02 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:02 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:09 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:09 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:10 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:10 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:13 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:13 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:16 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:16 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:26 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:26 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:28 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:28 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:30 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:30 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:36 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:36 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:44 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:44 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:48 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:48 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:52 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:52 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:53 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:53 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:07:58 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:07:58 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:08:01 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:08:01 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:08:01 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:08:01 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[17-Dec-2024 00:08:01 America/Chicago] PHP Warning:  include(): Failed opening '/home1/aiimsb5e/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/aiimsb5e/public_html/vendor/composer/ClassLoader.php on line 571
+[17-Dec-2024 00:08:01 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/aiimsb5e/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home1/aiimsb5e/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877

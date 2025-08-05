@@ -1,0 +1,169 @@
+@import "../../scss/variables";
+
+/*!
+ * FullCalendar v3.6.0 Print Stylesheet
+ * Docs & License: https://fullcalendar.io/
+ * (c) 2017 Adam Shaw
+ */
+ .fc-bg {
+	display: none;
+}
+.fc-bgevent-container {
+	display: none;
+}
+.fc-bgevent-skeleton {
+	display: none;
+}
+.fc-business-container {
+	display: none;
+}
+.fc-event {
+	.fc-resizer {
+		display: none;
+	}
+	background: #fff !important;
+	color: #000 !important;
+	page-break-inside: avoid;
+}
+.fc-helper-container {
+	display: none;
+}
+.fc-helper-skeleton {
+	display: none;
+}
+.fc-highlight-container {
+	display: none;
+}
+.fc-highlight-skeleton {
+	display: none;
+}
+.fc {
+	tbody {
+		.fc-row {
+			min-height: 0 !important;
+			height: auto !important;
+			.fc-content-skeleton {
+				position: static;
+				padding-bottom: 0 !important;
+				tbody {
+					tr {
+						&:last-child {
+							td {
+								padding-bottom: 1em;
+							}
+						}
+					}
+				}
+				table {
+					height: 1em;
+				}
+			}
+		}
+		border-color: #ccc !important;
+		background: #fff !important;
+	}
+	max-width: 100% !important;
+	hr {
+		border-color: #ccc !important;
+		background: #fff !important;
+	}
+	td {
+		border-color: #ccc !important;
+		background: #fff !important;
+	}
+	th {
+		border-color: #ccc !important;
+		background: #fff !important;
+	}
+	thead {
+		border-color: #ccc !important;
+		background: #fff !important;
+	}
+	tr.fc-limited {
+		display: table-row !important;
+	}
+	td.fc-limited {
+		display: table-cell !important;
+	}
+	button {
+		display: none;
+	}
+}
+.fc-time-grid {
+	min-height: 0 !important;
+	.fc-event.fc-not-end {
+		&:after {
+			content: "...";
+		}
+		border-bottom-width: 1px !important;
+	}
+	.fc-event.fc-not-start {
+		&:before {
+			content: "...";
+		}
+		border-top-width: 1px !important;
+	}
+	hr {
+		display: none !important;
+	}
+	.fc-event {
+		.fc-time {
+			span {
+				display: none;
+			}
+			white-space: normal !important;
+			&:after {
+				content: attr(data-full);
+			}
+		}
+		position: static !important;
+		margin: 3px 2px !important;
+	}
+	.fc-content-skeleton {
+		position: static;
+		table {
+			height: 4em;
+		}
+	}
+	.fc-event-container {
+		margin: 0 !important;
+	}
+}
+.fc-row {
+	border-color: #ccc !important;
+	background: #fff !important;
+	border: 0 !important;
+	margin: 0 !important;
+}
+.fc-more {
+	display: none !important;
+}
+.fc-more-cell {
+	display: none !important;
+}
+.fc-agenda-view {
+	.fc-axis {
+		display: none;
+	}
+}
+.fc-popover {
+	display: none;
+}
+.fc-slats {
+	display: none !important;
+}
+.fc-button-group {
+	display: none;
+}
+.fc-day-grid-container {
+	overflow: visible !important;
+	height: auto !important;
+}
+.fc-scroller {
+	overflow: visible !important;
+	height: auto !important;
+}
+.fc-time-grid-container {
+	overflow: visible !important;
+	height: auto !important;
+}

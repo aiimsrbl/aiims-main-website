@@ -1,0 +1,86 @@
+@import "../../scss/variables";
+
+
+/**
+ * Default styles for the dygraphs charting library.
+ */
+/* styles for a solid line in the legend */
+/* styles for a dashed line in the legend, e.g. when strokePattern is set */
+/* This class is shared by all annotations, including those with icons */
+/* This class only applies to annotations without icons */
+/* Old class name: .dygraphDefaultAnnotation */
+/* For y-axis label */
+/* For y2-axis label */
+.dygraph-legend {
+	position: absolute;
+	font-size: 14px;
+	z-index: 10;
+	width: 250px;
+	background: white;
+	line-height: normal;
+	text-align: left;
+	overflow: hidden;
+}
+.dygraph-axis-label {
+	.dygraph-axis-label-y {
+		color: #92a3b9 !important;
+	}
+	z-index: 10;
+	line-height: normal;
+	overflow: hidden;
+}
+.dygraph-legend-line {
+	display: inline-block;
+	position: relative;
+	bottom: .5ex;
+	padding-left: 1em;
+	height: 1px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+.dygraph-legend-dash {
+	display: inline-block;
+	position: relative;
+	bottom: .5ex;
+	height: 1px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+.dygraph-roller {
+	position: absolute;
+	z-index: 10;
+}
+.dygraph-annotation {
+	position: absolute;
+	z-index: 10;
+	overflow: hidden;
+}
+.dygraph-default-annotation {
+	border: 1px solid #e3edfc;
+	background-color: white;
+	text-align: center;
+}
+.dygraph-title {
+	font-weight: bold;
+	z-index: 10;
+	text-align: center;
+}
+.dygraph-xlabel {
+	text-align: center;
+}
+.dygraph-label-rotate-left {
+	text-align: center;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
+.dygraph-label-rotate-right {
+	text-align: center;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+}
