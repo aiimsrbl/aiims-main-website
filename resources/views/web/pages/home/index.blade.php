@@ -6,7 +6,7 @@
 <!-- Popup Intro-->
 
 
-<div id="myModal" class="modal fade">
+<div id="myModal" class="modal fade"> 
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header border-bottom-0">
