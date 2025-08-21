@@ -45,60 +45,96 @@
   </div>
 </div>
 <!-- End Popup Intro-->
-<div id="main">
+<div id="main" class="position-relative">
     
     <div id="carousel-indicators4" class="carousel slide" data-bs-ride="carousel">
-      <ol class="carousel-indicators4 carousel-indicators">
+      <ol class="carousel-indicators4 carousel-indicators" id="carouselIndicators">
         
-        <li data-bs-target="#carousel-indicators4" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carousel-indicators4" data-bs-slide-to="0" class="carouselIndicators active"></li>
         <li data-bs-target="#carousel-indicators4" data-bs-slide-to="1" class=""></li>
         <li data-bs-target="#carousel-indicators4" data-bs-slide-to="2" class=""></li>
-         <li data-bs-target="#carousel-indicators4" data-bs-slide-to="3" class=""></li>
-          <li data-bs-target="#carousel-indicators4" data-bs-slide-to="4" class=""></li>
-           <li data-bs-target="#carousel-indicators4" data-bs-slide-to="5" class=""></li>
-           <li data-bs-target="#carousel-indicators4" data-bs-slide-to="6" class=""></li>
-           <li data-bs-target="#carousel-indicators4" data-bs-slide-to="7" class=""></li>
-           <li data-bs-target="#carousel-indicators4" data-bs-slide-to="8" class=""></li>
-         <li data-bs-target="#carousel-indicators4" data-bs-slide-to="9" class=""></li>
       </ol>
-      <div class="carousel-inner">
-      
-      <div class="carousel-item active">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/banners/Aiims-Banner-111.jpg')}}" data-holder-rendered="true">
-        </div>
-        <div class="carousel-item ">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/banners/Aiims-Banner-1.png')}}" data-holder-rendered="true">
-        </div>
-         <div class="carousel-item">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/banners/aiims-yogi-g.JPG')}}" data-holder-rendered="true">
-        </div>
-         <div class="carousel-item ">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/banners/Aiims-Banner-3.png')}}" data-holder-rendered="true">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/banners/Aiims-Banner-4.png')}}" data-holder-rendered="true">
-        </div>
-          <div class="carousel-item ">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/slider/main-banner.jpg')}}" data-holder-rendered="true">
+      <div class="carousel-inner" id="carouselInner">
+          
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="{{asset('assets/images/banners/aug1525-1.jpg')}}" alt="">
         </div>
         
         <div class="carousel-item">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/banners/aiims-festival.JPG')}}" data-holder-rendered="true">
+            <img class="d-block w-100" src="{{asset('assets/images/banners/Aiims-Banner-4.png')}}" alt="">
         </div>
+        
         <div class="carousel-item">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/banners/Aiims-Banner-5.png')}}" data-holder-rendered="true">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/banners/aiims-fest.JPG')}}" data-holder-rendered="true">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" alt="" src="{{asset('assets/images/banners/aiims-2025-fes.JPG')}}" data-holder-rendered="true">
+            <img class="d-block w-100" src="{{asset('assets/images/slider/main-banner.jpg')}}" alt="">
         </div>
       </div>
-										
-  
-  </section>
+    </div>
+    
+    <!-- Hidden slides outside carousel -->
+    <div id="hiddenSlides" class="d-none">
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/aug1525-2.jpg')}}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/aug1525-3.jpg')}}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/Aiims-Banner-111.jpg')}}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/Aiims-Banner-1.png')}}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/Aiims-Banner-3.png')}}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/aiims-yogi-g.JPG')}}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/aiims-festival.JPG')}}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/Aiims-Banner-5.png')}}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/aiims-fest.JPG')}}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="{{asset('assets/images/banners/aiims-2025-fes.JPG')}}" alt="">
+        </div>
+    </div>
+    
+  <button id="revealBtn" class="btn btn-primary btn-sm">Show More</button>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("revealBtn");
+    const carouselInner = document.getElementById("carouselInner");
+    const indicators = document.getElementById("carouselIndicators");
+    const hiddenSlides = document.querySelectorAll("#hiddenSlides .carousel-item");
+    let index = 0;
+
+    button.addEventListener("click", function () {
+      if (index < hiddenSlides.length) {
+        const newSlide = hiddenSlides[index].cloneNode(true);
+        carouselInner.appendChild(newSlide);
+
+        const newIndicator = document.createElement("li");
+        const totalIndicators = indicators.querySelectorAll("li").length;
+        newIndicator.setAttribute("data-bs-target", "#carousel-indicators4");
+        newIndicator.setAttribute("data-bs-slide-to", totalIndicators);
+        indicators.appendChild(newIndicator);
+
+        index++;
+        if (index === hiddenSlides.length) {
+          button.disabled = true;
+          button.innerText = "All Slides Shown";
+        }
+      }
+    });
+  });
+</script>
 <!--/Sliders Section-->
 <!--Breadcrumb-->
 @include('web.pages.home.spotlight')
@@ -152,11 +188,11 @@
       <div class="col-md-3 col-sm-3">
         <div class="bg-light p-0 mt-5 mt-md-0 border box-shadow2 w-100">
           <div class="card-body text-center">
-            <!--<div class="bg-warning icon-bg  icon-service text-purple mb-4" style="width:85px; height:85px;">
-              <img src="assets/download/dr-ak-singh.jpg" class="border brround avatar-md w-100 h-100" alt="Sales">
+            <div class="bg-warning icon-bg  icon-service text-purple mb-4" style="width:85px; height:85px;">
+              <img src="assets/download/dr-rv-ramani.jpg" class="border brround avatar-md w-100 h-100" alt="Sales">
             </div>
-            <h4 class="mb-2 fs-18 font-weight-semibold"><a class="text-dark" href="/president">Prof. (Dr.) AK Singh</a></h4>
-            <p>President, AIIMS Raebareli</p>-->
+            <h4 class="mb-2 fs-18 font-weight-semibold"><a target="_blank" class="text-dark" href="https://en.wikipedia.org/wiki/R.V._Ramani">Dr. R. V. Ramani</a></h4>
+            <p>President, AIIMS Raebareli</p>
           </div>
         </div>
       </div>

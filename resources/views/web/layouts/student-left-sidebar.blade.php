@@ -7,7 +7,7 @@
 		<div class="card-body p-0">
 			<div class="list-catergory">
 				<div class="item-list">
-					<ul class="list-group mb-0">
+					<ul class="list-group mb-0 studentCornerList">
 						<li class="list-group-item">
 							<a href="{{route('web.addmission')}}" class="text-dark">
 								<i class="fa fa-file-text-o bg-primary text-primary"></i> Admission Procedure/Info
@@ -35,6 +35,12 @@
 					<li class="list-group-item">
 							<a href="{{route('web.anti-ragging')}}" class="text-dark">
 								<i class="fa fa-file-text-o bg-primary text-primary"></i> Committees
+								
+							</a>
+						</li>
+						<li class="list-group-item">
+							<a href="{{route('web.paramedical-allied-health-results')}}" class="text-dark">
+								<i class="fa fa-file-text-o bg-primary text-primary"></i> Paramedical & Allied Health Results
 								
 							</a>
 						</li>

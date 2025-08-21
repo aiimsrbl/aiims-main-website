@@ -28,6 +28,7 @@
 										<select name="category" class="select2">
 											<option value="MBBS Result">MBBS Result</option>
 											<option value="Nursing Result">Nursing Result</option>
+											<option value="Paramedical and Allied Health Result">Paramedical and Allied Health Result</option>
 										</select>
 									</div>
 									

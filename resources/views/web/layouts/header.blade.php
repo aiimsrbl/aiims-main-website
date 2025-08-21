@@ -165,6 +165,9 @@
                                 <li aria-haspopup="true">
                                 <a  href="{{route('web.nursing-examination-result')}}">Nursing Results</a>
                                 </li>
+                                <li aria-haspopup="true">
+                                <a  href="{{route('web.paramedical-allied-health-results')}}">Paramedical & Allied Health Results</a>
+                                </li>
                                 </ul>
                         </li>
                         <li><a href="{{route('web.about-us')}}">About Us</a></li>

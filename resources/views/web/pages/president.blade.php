@@ -25,17 +25,17 @@
 			<div class="container">
 				<div class="row">
 					<!--Right Side Content-->
-					<!--<div class="col-xl-3 col-lg-4 col-md-12">
+					<div class="col-xl-3 col-lg-4 col-md-12">
 						<div class="card">
 							<div class="item-user">
 								<div class="profile-pic mb-0">
-									<img src="assets/download/dr-ak-singh.jpg" class="w-100" alt="user">
+									<img src="assets/download/dr-rv-ramani.jpg" class="w-100" alt="user">
 								</div>
 							</div>
 							<div class="card-body item-user">
 								 <div class="ms-1">
 									<a href="userprofile.html" class="text-dark">
-									   <h4 class="mt-1 mb-3 font-weight-bold">Prof. (Dr.) AK Singh</h4>
+									   <h4 class="mt-1 mb-3 font-weight-bold">Dr. R. V. Ramani</h4>
 									</a>
 									<span class="">President,  AIIMS Raebareli</span><br>
 									 </div>
@@ -51,10 +51,10 @@
 							
 						</div>
 						
-					</div>-->
+					</div>
 					<!--Right Side Content-->
 
-					<!--<div class="col-xl-9 col-lg-8 col-md-12">
+					<div class="col-xl-9 col-lg-8 col-md-12">
 					    <div class="card"><div class="card-header text-center">
 									<h3 class="card-title ">Biographical:</h3>
 								</div>
@@ -68,7 +68,7 @@
 											</div>	
 						</div>
 					
-					</div>-->
+					</div>
 				</div>
 			</div>
 		</section>

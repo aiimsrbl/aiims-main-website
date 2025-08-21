@@ -28,6 +28,8 @@
 										<select name="category" class="select2">
 											<option value="MBBS Result" {{($result->category =='MBBS Result')?'selected':''}}>MBBS Result</option>
 											<option value="Nursing Result" {{($result->category =='Nursing Result')?'selected':''}}>Nursing Result</option>
+										<option value="Nursing Result" {{($result->category =='Paramedical and Allied Health Result')?'selected':''}}>Nursing Result</option>	
+											
 										</select>
 									</div>
 									
